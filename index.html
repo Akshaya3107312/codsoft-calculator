@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <div class="calculator">
+      <input id="display" class="display" type="text" placeholder="0" readonly />
+      <div class="keys">
+        <button data-action="clear" class="key accent">AC</button>
+        <button data-action="delete" class="key">DEL</button>
+        <button data-value="/" class="key operator">/</button>
+        <button data-value="*" class="key operator">*</button>
+
+        <button data-value="7" class="key">7</button>
+        <button data-value="8" class="key">8</button>
+        <button data-value="9" class="key">9</button>
+        <button data-value="-" class="key operator">-</button>
+
+        <button data-value="4" class="key">4</button>
+        <button data-value="5" class="key">5</button>
+        <button data-value="6" class="key">6</button>
+        <button data-value="+" class="key operator">+</button>
+
+        <button data-value="1" class="key">1</button>
+        <button data-value="2" class="key">2</button>
+        <button data-value="3" class="key">3</button>
+        <button data-action="equals" class="key equals">=</button>
+
+        <button data-value="0" class="key zero">0</button>
+        <button data-value="." class="key">.</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
